@@ -1,0 +1,13 @@
+#artext {
+    background: linear-gradient(to left,silver,gold,black,silver);
+    background-size: 1000% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    display: inline-block;
+    animation: animated  35s linear infinite;
+}
+@keyframes animated {
+    0% {background-position: 800% center;}
+    800% {background-position: 0% center;}
+}

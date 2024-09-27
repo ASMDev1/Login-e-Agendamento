@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="agendamento.css">
+    <title>Agendamento de consulta</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="artext">
+            <span>Agendamento</span>
+            <span>de consulta</span>
+        </h1>
+        <form id="agendamentoForm">
+            <label for="medico">Escolha o médico:</label>
+            <select id="medico" name="medico" required>
+                <option value="medico1">Dr.João Silva </option>
+                <option value="medico2">Dra.Maria Oliveira </option>
+                <option value="medico3">Dra.Maria Clara Amorim </option>
+            </select>
+
+            <label for="data">Escolha a data </label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="horario">Escolha seu horario:</label>
+            <input type="time" id="horario" name="horario" required>
+
+            <button type="submit">Confirmar Agendamento</button>
+
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
